@@ -1,4 +1,4 @@
-# Extension Project
+# Quick Whats
 
 This is a simple Chrome extension. Enter a number and get redirected to WhatsApp.
 
