@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Whats</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 250px;
+        }
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 1.5px solid #ccc;
+            border-radius: 10px;
+        }
+
+        input:focus {
+            border-color: rgb(147, 227, 153);
+            outline: none;
+        }
+        button {
+            width: 40px;
+            padding: 5px;
+            background-color: rgb(147, 227, 153);
+            color: white;
+            border-radius: 20%;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgb(110, 203, 118);
+        }
+        .divButton {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="numInput" placeholder="Insert whatsapp number...">
+        <div class="divButton">
+            <button id="goButton">Go</button>
+        </div>
+        <script src="popup.js"></script>
+    </div>
+</body>
+</html>
